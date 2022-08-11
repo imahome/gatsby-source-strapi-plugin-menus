@@ -1,0 +1,37 @@
+{
+  "name": "gatsby-source-strapi-plugin-menus",
+  "version": "1.0.0",
+  "description": "Gatsby source plugin to fetch and expose the UI Menu as GraphQL nodes in Gatsby from Strapi using the strapi-plugin-navigation API.",
+  "homepage": "https://github.com/alexgorgos/gatsby-source-strapi-plugin-menu.git#readme",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:alexgorgos/gatsby-source-strapi-plugin-menu.git"
+  },
+  "author": {
+    "name": "Alexandru Gorgos",
+    "email": "hello@alexandrugorgos.com",
+    "url": "https://github.com/alexgorgos/"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"No build script setup\""
+  },
+  "keywords": [
+    "gatsby",
+    "strapi",
+    "menu",
+    "menus",
+    "gatsby-plugin",
+    "gatsby-source",
+    "strapi-plugin",
+    "strapi-plugin-menus"
+  ],
+  "license": "0BSD",
+  "peerDependencies": {
+    "gatsby": "^4.9.0"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
+}
