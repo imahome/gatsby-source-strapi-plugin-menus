@@ -12,8 +12,8 @@ module.exports = {
         {
             resolve: "gatsby-source-strapi-plugin-menus",
             options: {
-            apiURL: strapiConfig.apiURL,
-            token: strapiConfig.accessToken,
+            apiURL: "",
+            token: process.env.accessToken,
             },
         },
     ],
