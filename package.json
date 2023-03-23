@@ -25,7 +25,7 @@
   ],
   "license": "0BSD",
   "peerDependencies": {
-    "gatsby": "^4.9.0"
+    "gatsby": "^5.8.0"
   },
   "dependencies": {
     "node-fetch": "^2.6.7"
